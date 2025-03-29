@@ -1,0 +1,51 @@
+ls --> list
+ls -a --> hidden list
+ls -l --> more details about list
+pwd --> present working dir
+cd --> move dir
+cd .. --> back dir
+cd -  --> back to last dir
+mkdir --> create dir
+touch --> create file
+mv --> move file.txt folder # moves
+mv --> file1.txt file2.txt #rename
+cp --> copy file
+rm --> remove file
+rm -rf --> remove folder (r' stands for recursive, f' stands for force)
+cat --> display the content of the file  or used to create file as well
+ln --> create shortcut ex: ln -s file.txt/folder file1.txt/folder1
+echo --> print any test that follows the command
+man --> manual pages for all linux command
+uname --> to get the basic information about the os
+uname -mrs --> kernel, version
+uname -a --> kernel,version, os, procesor, current time etc
+tar -cvf --> for creating compressed folder
+tar -xvf --> for extracting compressed folder
+grep --> to grep out the particular pattern/word
+grep -n --> extract line no where the particular word grabbed
+head -->returns specific number of lines from top
+tail -->returns specific number of lines from bottom
+export --> Export environment variable in linux
+zip --> zip files in linux
+unzip --> unzip files in linux
+ssh --> secure cell command in linux
+service --> linux cmd to start and stop service
+ps --> active processor
+kill  -> kill the current process(us with pid)
+df --> display disc filesystem information
+df -h --> df output with more human understandable format
+chmod --> to change file permission
+ifconfig--> displays network interface & ip address
+curl --> view api data in my terminal
+wget --> downloads the api content using  the link in cmd
+ufw --> firewall cmd
+apt, yum, rpm --> package managers depending upon the distro
+sudo --> cmd to escalate priviledges in linux
+whereis --> used to locate the binary, source and manual pages
+find --> what cmd is used for
+top/btop --> view active pages live with usage
+neofetch --> tells data about system
+
+
+
+
