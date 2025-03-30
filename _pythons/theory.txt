@@ -1,0 +1,5 @@
+- hig level programming language
+- open source
+- cn be bother interpreted or compiled
+- trending language
+- easy to learn and use
