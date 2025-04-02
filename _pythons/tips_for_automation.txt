@@ -1,0 +1,17 @@
+api automation:
+- we will use pytest
+- for pytest filenames should be start with test ex: test_file.py
+- create a method with the name like this test_main_name.py
+- you can add assertions
+   - extpected result = actual result
+   - Fail or Pass
+- cmd to run pytest _pythons/test_sl2.py(path copy ref)
+- to mark use @pytest.mark.skip/smoke/reg etc
+- cmd if we want to run selective cases pytest -m "smoke" _pythons/test_sl3.py
+- for allure report if already have allure
+   - pytest -m "smoke" _pythons/test_sl3.py --alluredir=allure_report
+   - allure serve allure-results generate html report
+- if alure report does not refreshes use this cmd
+  - pytest --alluredir=allure-results --capture=tee-sys -v
+
+
